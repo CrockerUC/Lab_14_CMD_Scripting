@@ -9,7 +9,7 @@ public class FileScan
 
         if(args.length > 0)
         {
-            selectedFile = new File("./src/" + args[0]);
+            selectedFile = new File(args[0]);
 
             if (!selectedFile.exists()) {
                 System.out.println("File not found: " + args[0]);
